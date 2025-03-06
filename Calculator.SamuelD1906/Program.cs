@@ -52,7 +52,7 @@ class Program
             // Validate input is not null, and matches the pattern
             if (op == null || ! Regex.IsMatch(op, "[a|s|m|d]"))
             {
-               Console.WriteLine("Error: Unrecognized input.");
+               Console.WriteLine("Error: Unrecognized input!.");
             }
             else
             { 
